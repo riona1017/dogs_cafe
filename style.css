@@ -1,0 +1,142 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    height: 300vh;
+    text-align: center;
+}
+
+/* トップ */
+.top {
+    background-image: url("./image/main.JPG");
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.top_menu {
+    margin: 60px 0;
+}
+
+/*  目次 */
+.menu {
+    background-color: rgb(211, 211, 211);
+    width: 60%;
+    height: 15%;
+    margin: 10px auto;
+}
+
+.main_menu {
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: none;
+}
+
+ul {
+    padding-left: 0;
+    width: 50%;
+    margin: auto;
+}
+
+a {
+    color: #333;
+}
+
+a.anchor {
+    display: block;
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+li {
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+/* カフェ内容 */
+.contents {
+    margin: 60px 0;
+    padding: 30px 0;
+}
+
+h2 {
+    border-bottom: solid 1px #666;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    left: 30%;
+}
+
+img {
+    width: 40%;
+    height: 40%;
+    object-fit: cover;
+    padding: 10px;
+    
+}
+
+.small {
+    font-size: 12px;
+    color: #999;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+b {
+    padding-top: 10px;
+}
+
+span {
+    background: linear-gradient(transparent 60%, #ff6 60%);
+}
+
+table, td, th {
+    border: solid 1px #333;
+}
+
+table {
+    margin: 50px auto;
+    width: 80%;
+}
+
+tr {
+    letter-spacing: 3px;
+}
+
+td, th {
+    padding: 10px;
+}
+
+iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+/* まとめ */
+.last {
+   padding-top: 100px;
+}
+
+.last_contents {
+    height: 30vh;
+    width: 100%;
+}
+
+/* フッター */
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #999;
+}
+
+.footer_p {
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+}
